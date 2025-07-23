@@ -2167,6 +2167,19 @@
 		)
 	)
 	(rectangle
+		(start 111.76 123.19)
+		(end 163.83 168.91)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 726ec5c3-c39f-415e-bbcd-cbff53fc7c21)
+	)
+	(rectangle
 		(start 40.64 29.21)
 		(end 229.87 114.3)
 		(stroke
@@ -2191,19 +2204,6 @@
 			(type none)
 		)
 		(uuid f7e4a593-2da9-4123-b6de-e8ed0c8a5d85)
-	)
-	(rectangle
-		(start 115.316 125.73)
-		(end 154.94 170.18)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f954e6d8-f48f-4242-beea-8fccb18966d8)
 	)
 	(text "GPIO0, GPIO45, and GPIO46 are connected to the chip's internal weak pull-up/pull-down resistors at chip reset.\nThese resistors determine the default bit values of the strapping pins. Also, these resistors determine the bit\nvalues if the strapping pins are connected to an external high-impedance circuit."
 		(exclude_from_sim no)
@@ -2260,6 +2260,21 @@
 		)
 		(uuid "4bb798be-9afc-48ef-a384-ffef79adeeaf")
 	)
+	(text "AUDIO"
+		(exclude_from_sim no)
+		(at 111.76 124.46 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d4c1256-d29d-45b7-bb2e-ba90cbe93d31")
+	)
 	(text "Status LED1"
 		(exclude_from_sim no)
 		(at 59.69 148.59 0)
@@ -2285,20 +2300,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f1a18e9-5f7e-4999-885d-d5dfb07df6b4")
-	)
-	(text "BUZZER"
-		(exclude_from_sim no)
-		(at 115.062 126.492 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a114045-481d-419a-a1fe-cc53459ff9bb")
 	)
 	(text "Typically these can be used, but you need to make sure they are not in the wrong state during boot.\n\ngpio.0 Boot Mode. Weak pullup during reset. (Boot Mode 0=Boot from Flash, 1=Download)\ngpio.3 JTAG Mode. Weak pull down during reset. (JTAG Config)\ngpio.45 SPI voltage. Weak pull down during reset. (SPI Voltage 0=3.3v 1=1.8v)\ngpio.46 Boot mode. Weak pull down during reset. (Enabling/Disabling ROM Messages Print During Booting)"
 		(exclude_from_sim no)
@@ -2457,6 +2458,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 152.4) (xy 140.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f37147-711d-413d-97a5-65ff65c11371")
+	)
+	(wire
+		(pts
 			(xy 219.71 99.06) (xy 219.71 95.25)
 		)
 		(stroke
@@ -2464,6 +2475,16 @@
 			(type default)
 		)
 		(uuid "47c6803d-c8f2-4714-9403-68067c93905e")
+	)
+	(wire
+		(pts
+			(xy 135.89 153.67) (xy 135.89 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac4057f-7cd7-4ce5-9ad5-d1fa95e13166")
 	)
 	(wire
 		(pts
@@ -2637,16 +2658,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 153.67) (xy 139.7 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a35441-6fdd-442e-8904-047a4a4d4fec")
-	)
-	(wire
-		(pts
 			(xy 60.96 157.48) (xy 64.77 157.48)
 		)
 		(stroke
@@ -2717,16 +2728,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 154.94) (xy 134.62 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da58a9b9-fc74-4f18-ad01-06ea352d460c")
-	)
-	(wire
-		(pts
 			(xy 60.96 142.24) (xy 64.77 142.24)
 		)
 		(stroke
@@ -2754,16 +2755,6 @@
 			(type default)
 		)
 		(uuid "f1359a46-d689-46be-9be1-25bbe863059d")
-	)
-	(wire
-		(pts
-			(xy 134.62 143.51) (xy 134.62 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7a5a519-e951-4354-9c33-7f06362e77f6")
 	)
 	(global_label "~{CS1}"
 		(shape input)
@@ -3001,6 +2992,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BZ_PWM"
+		(shape input)
+		(at 135.89 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "3cb386cf-7fea-4e0d-aa47-40552d94234b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.2867 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3413,30 +3428,6 @@
 			)
 		)
 	)
-	(global_label "BZ_PWM"
-		(shape input)
-		(at 134.62 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "b00b85e4-3af3-4cfd-b44e-8a45744f1f6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.0167 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_IO_35"
 		(shape input)
 		(at 60.96 149.86 180)
@@ -3830,78 +3821,6 @@
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/1f17b221-7bce-421d-8177-d4332476b4cf"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37e0c687-2b0f-4b5d-b5b6-d935623a8588")
-		(property "Reference" "#PWR05"
-			(at 139.7 160.02 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.065 157.48 90)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 153.67 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 153.67 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74ac9edf-89df-4cc7-b3d1-1ff5e0ecb9ef")
-		)
-		(instances
-			(project "PRTGN_v1"
-				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/1f17b221-7bce-421d-8177-d4332476b4cf"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4328,6 +4247,73 @@
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/1f17b221-7bce-421d-8177-d4332476b4cf"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92f204d1-159d-43f4-a96b-4d75bdfb8b3f")
+		(property "Reference" "#PWR05"
+			(at 140.97 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3a6d671-8de6-409a-87da-5c3f361fcff2")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/1f17b221-7bce-421d-8177-d4332476b4cf"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5107,99 +5093,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Buzzer")
-		(at 137.16 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca9b7eb7-eff1-4e00-aec0-b3986601811e")
-		(property "Reference" "BZ1"
-			(at 137.795 132.715 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 140.335 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Schrack_brd:BUZZER_CUI_CPT"
-			(at 134.62 140.335 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/CUI-Devices/CPT-1625-80-SMT-TR?qs=P1JMDcb91o43eCFIymFs3Q%3D%3D"
-			(at 134.62 140.335 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 137.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 137.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 137.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 137.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c6698d1a-18c0-421e-99d6-60bd09646044")
-		)
-		(pin "1"
-			(uuid "165e85fe-3107-4150-8de3-da515f85de11")
-		)
-		(instances
-			(project "PRTGN_v1"
-				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/1f17b221-7bce-421d-8177-d4332476b4cf"
-					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 68.58 134.62 180)
 		(unit 1)
@@ -5339,31 +5232,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 147.32 180)
+		(at 135.89 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f3949819-2eaf-4e94-8957-7e211438819e")
+		(uuid "f248ffbb-3459-477f-b680-46b51f0e063e")
 		(property "Reference" "R5"
-			(at 131.318 146.558 0)
+			(at 134.62 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "0R"
-			(at 131.318 148.463 0)
+			(at 133.985 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 136.398 147.32 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 137.668 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 147.32 0)
+			(at 135.89 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,8 +5275,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 134.62 147.32 0)
+		(property "Description" ""
+			(at 135.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17633"
+			(at 135.89 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5294,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 134.62 147.32 0)
+			(at 135.89 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5302,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 134.62 147.32 0)
+			(at 135.89 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,23 +5310,93 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 134.62 147.32 0)
+			(at 135.89 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d282eaa2-3323-41c7-996a-2dca6b77b116")
-		)
 		(pin "1"
-			(uuid "d6082441-8a3a-4e5d-ad25-ed7f91eb64aa")
+			(uuid "3a5d6d98-4346-4f53-8bae-9dac36ac1c1a")
+		)
+		(pin "2"
+			(uuid "d581542a-aca2-43a5-8107-6422cf8117f5")
 		)
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/1f17b221-7bce-421d-8177-d4332476b4cf"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 138.43 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8498cfa-d301-45d8-8bb1-db107dbc89ab")
+		(property "Reference" "BZ1"
+			(at 142.24 138.9448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 142.24 141.4848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "gps-compass_brd:CEM-1203_Buzzer"
+			(at 135.89 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Same-Sky/CEM-120342?qs=WyjlAZoYn50KzVdoYfaqpA%3D%3D"
+			(at 135.89 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 138.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12180b68-69ff-4907-958c-46a5bf718281")
+		)
+		(pin "2"
+			(uuid "0e5d6638-0ade-4021-9377-02b7f196f617")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/1f17b221-7bce-421d-8177-d4332476b4cf"
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
