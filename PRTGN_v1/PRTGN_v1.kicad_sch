@@ -126,6 +126,30 @@
 		)
 		(uuid b95e04a1-ec54-4501-8fa8-4384ed473c14)
 	)
+	(text "JST VH4 CABLE"
+		(exclude_from_sim no)
+		(at 79.375 130.175 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(href "https://www.aliexpress.com/item/1005005097178659.html?spm=a2g0o.productlist.main.1.3f962028cCI2oB&algo_pvid=0ec6399e-4c12-40aa-bfe5-ad70e34caf19&algo_exp_id=0ec6399e-4c12-40aa-bfe5-ad70e34caf19-0&pdp_ext_f=%7B\"order\"%3A\"8\"%2C\"eval\"%3A\"1\"%7D&pdp_npi=6%40dis%21USD%211.57%211.08%21%21%211.57%211.08%21%402103867617544229092177424e8429%2112000031647173870%21sea%21CZ%216186796272%21X%211%210%21&curPageLogUid=BJkgc1dDGujU&utparam-url=scene%3Asearch%7Cquery_from%3A")
+		)
+		(uuid "99e990c7-7da6-4d3e-bf7e-f7e626525b19")
+	)
+	(text "ALIEXPRESS DISPLAY"
+		(exclude_from_sim no)
+		(at 80.645 121.285 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(href "https://www.aliexpress.com/item/1005003258372186.html?spm=a2g0o.productlist.main.6.2b8164c6VVgrJZ&algo_pvid=f2ff8835-5b5e-48e1-ab17-aeadfc1f4b31&algo_exp_id=f2ff8835-5b5e-48e1-ab17-aeadfc1f4b31-5&pdp_ext_f=%7B\"order\"%3A\"80\"%2C\"eval\"%3A\"1\"%7D&pdp_npi=6%40dis%21USD%2117.62%218.81%21%21%2117.62%218.81%21%402103891017544204332836938ede21%2112000024890032393%21sea%21CZ%210%21ABX%211%210%21&curPageLogUid=6hwtcY8OWy5e&utparam-url=scene%3Asearch%7Cquery_from%3A#nav-description")
+		)
+		(uuid "a38ba9bb-24e8-4d3a-8249-f45eb947342c")
+	)
 	(text "ART"
 		(exclude_from_sim no)
 		(at 77.47 155.702 0)
@@ -153,6 +177,18 @@
 			(justify left bottom)
 		)
 		(uuid "d8781953-be00-4174-bb9e-25c1b091d5bf")
+	)
+	(text "JST VH CONN AND HOUSING"
+		(exclude_from_sim no)
+		(at 80.645 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(href "https://www.aliexpress.com/item/1005006867575378.html?src=google&pdp_npi=4%40dis!USD!1.11!0.76!!!!!%40!12000038566059650!ppc!!!&src=google&albch=shopping&acnt=615-992-9880&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oFgTQeV&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en1005006867575378&ds_e_product_merchant_id=107917273&ds_e_product_country=CZ&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=22479481823&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=22482954463&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEaDuYjB2BdZjFun25MXcafKrZBwwFhnyjbScrGbarbSoFRxSw7wIAcaAtPkEALw_wcB")
+		)
+		(uuid "ed8e7aee-6460-4cf2-b961-bb7aa5890589")
 	)
 	(junction
 		(at 86.36 173.99)

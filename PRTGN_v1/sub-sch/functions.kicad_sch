@@ -3943,7 +3943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm"
+		(property "Footprint" "gps-compass_brd:SolderWire-Relief-4pin"
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -4261,7 +4261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x05_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "gps-compass_brd:SolderWire-Relief-5pin"
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -4605,7 +4605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "gps-compass_brd:SolderWire-Relief-3pin"
 			(at 205.74 99.06 0)
 			(effects
 				(font
@@ -5038,7 +5038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x05_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "gps-compass_brd:SolderWire-Relief-5pin"
 			(at 71.12 91.44 0)
 			(effects
 				(font
