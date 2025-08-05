@@ -5365,7 +5365,7 @@
 			)
 		)
 	)
-	(global_label "VBUS 5V"
+	(global_label "VBUS_5V"
 		(shape input)
 		(at 173.99 64.77 0)
 		(fields_autoplaced yes)
@@ -5379,7 +5379,7 @@
 		)
 		(uuid "1b495714-68b0-47fd-8a4e-8d74f1505814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.7064 64.77 0)
+			(at 181.8219 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
