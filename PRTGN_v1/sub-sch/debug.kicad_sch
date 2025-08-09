@@ -1216,31 +1216,7 @@
 			)
 		)
 	)
-	(global_label "LED_IO_08"
-		(shape input)
-		(at 133.35 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "2b8f172e-00f9-4e0a-bf0b-eed9f6841896")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.5509 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_IO_35"
+	(global_label "LED_IO_42"
 		(shape input)
 		(at 133.35 99.06 180)
 		(fields_autoplaced yes)
@@ -1252,9 +1228,81 @@
 			)
 			(justify right)
 		)
-		(uuid "ab0e55c8-3081-4613-8028-200f6b7b5b23")
+		(uuid "0e45c3bb-de30-48b4-a224-c994b7ef8e6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.6085 99.06 0)
+			(at 124.5909 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 78.74 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "616df6f9-4bb1-4d96-ae5c-3144b421307c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.0791 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_IO_02"
+		(shape input)
+		(at 133.35 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "667de75a-a182-4349-b40e-a2572da70785")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.6154 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FREE_IO"
+		(shape input)
+		(at 78.74 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "9b558f5f-1dc2-4746-949e-e24b11b63ad3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.2852 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,6 +1327,30 @@
 		(uuid "b86dc0de-cd03-4eec-b0cc-3a6c3dfef136")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.5181 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 62.23 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "db27bf43-f305-4cdf-9b28-873560d2cc3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.3707 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 93.218 90)
 			(effects
 				(font
@@ -1383,15 +1455,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 76.2 90.17 180)
+		(at 78.74 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "114ee392-e1a3-46ee-a6f6-c3de3b2d2658")
-		(property "Reference" "#PWR043"
-			(at 76.2 86.36 0)
+		(property "Reference" "#PWR049"
+			(at 78.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1472,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 74.93 92.075 0)
+			(at 77.47 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 90.17 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 90.17 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 90.17 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,7 +1513,7 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -1456,7 +1528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22bcc77c-fdb5-4c35-af57-95a862b2fa10")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR051"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -1507,41 +1579,42 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "#PWR045")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 140.97 99.06 180)
+		(lib_id "Connector:TestPoint")
+		(at 62.23 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5a876b73-fd52-4bc8-97c7-26678d377501")
-		(property "Reference" "D5"
-			(at 139.065 94.615 0)
+		(uuid "4bf983d6-dadc-4365-a38a-8e5e826c5f6c")
+		(property "Reference" "TP5"
+			(at 63.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 139.065 96.52 0)
+		(property "Value" "TestPoint"
+			(at 64.008 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 140.97 99.06 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 67.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1623,73 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 99.06 0)
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53b6999e-75e3-4c0b-9a9d-63e7a6983e5c")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 152.4 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a876b73-fd52-4bc8-97c7-26678d377501")
+		(property "Reference" "D5"
+			(at 150.495 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 150.495 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 99.06 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,15 +1723,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 76.2 101.6 0)
+		(at 78.74 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "73e1c255-56ad-430d-8626-e4b6155ff93b")
-		(property "Reference" "TP5"
-			(at 77.978 97.028 0)
+		(uuid "5e43bb3c-5154-44f0-834e-26f52b71c42b")
+		(property "Reference" "TP4"
+			(at 80.01 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,16 +1740,17 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 77.978 99.568 0)
+			(at 80.518 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 81.28 101.6 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 101.6 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1768,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 76.2 101.6 0)
+			(at 78.74 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,12 +1777,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ebac5564-b8b2-4770-b5e6-f0083bc3c4ce")
+			(uuid "2602f0ae-7ce5-47cc-b8c3-646274389caa")
 		)
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1657,7 +1797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80b06d63-4499-4da7-8c85-341fa4987316")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR052"
 			(at 167.64 99.06 0)
 			(effects
 				(font
@@ -1708,7 +1848,7 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "#PWR046")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1716,7 +1856,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 99.06 90)
+		(at 140.97 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1724,7 +1864,7 @@
 		(dnp no)
 		(uuid "836b7878-a94e-46bf-8b02-65de5b82f3ac")
 		(property "Reference" "R13"
-			(at 153.67 94.615 90)
+			(at 142.24 94.615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1873,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 154.94 96.52 90)
+			(at 143.51 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,8 +1881,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 152.4 100.838 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 140.97 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1891,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 99.06 0)
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 99.06 0)
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,15 +1925,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 76.2 90.17 0)
+		(at 78.74 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8ce15fc3-a0d9-4d7b-9e4c-f00db806059e")
-		(property "Reference" "TP4"
-			(at 77.978 85.598 0)
+		(uuid "86a0ee1f-eda5-4308-99e8-cd40d84945a9")
+		(property "Reference" "TP6"
+			(at 80.01 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,16 +1942,17 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 77.978 88.138 0)
+			(at 80.518 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 81.28 90.17 0)
+			(at 83.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 90.17 0)
+			(at 83.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +1970,141 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 76.2 90.17 0)
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83e32128-c459-4180-abbb-98e2c14a7674")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8925c1e5-1b2b-402c-99ed-ba179be853f8")
+		(property "Reference" "#PWR048"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "665a06a9-634e-49b5-90af-1ba9a765fadf")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ce15fc3-a0d9-4d7b-9e4c-f00db806059e")
+		(property "Reference" "TP3"
+			(at 80.01 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.518 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +2118,7 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -1859,7 +2134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92f204d1-159d-43f4-a96b-4d75bdfb8b3f")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR054"
 			(at 210.82 106.68 0)
 			(effects
 				(font
@@ -1910,7 +2185,7 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "#PWR048")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1943,7 +2218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 85.598 90)
 			(effects
 				(font
@@ -1987,7 +2262,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 106.68 90)
+		(at 140.97 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1995,7 +2270,7 @@
 		(dnp no)
 		(uuid "ad8f2796-08a7-498b-ab5d-bb7a597b4be5")
 		(property "Reference" "R14"
-			(at 153.67 102.235 90)
+			(at 142.24 102.235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2279,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 154.94 104.14 90)
+			(at 143.51 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,8 +2287,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 152.4 108.458 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 140.97 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 106.68 0)
+			(at 140.97 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2306,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 106.68 0)
+			(at 140.97 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afcd4e2a-e3ec-4674-87f1-ea5b67d50b0d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 167.64 83.82 0)
 			(effects
 				(font
@@ -2114,7 +2389,7 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2129,7 +2404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8b558f1-017c-4abb-b6c4-f78849994f68")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR053"
 			(at 167.64 106.68 0)
 			(effects
 				(font
@@ -2180,7 +2455,7 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "#PWR047")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2188,15 +2463,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 59.69 90.17 0)
+		(at 62.23 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "be5a3858-67cf-410d-9663-5f6a3c86f642")
-		(property "Reference" "TP2"
-			(at 61.468 85.598 0)
+		(property "Reference" "TP1"
+			(at 63.5 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,16 +2480,17 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 61.468 88.138 0)
+			(at 64.008 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 64.77 90.17 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 90.17 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2508,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 59.69 90.17 0)
+			(at 62.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2522,7 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2254,15 +2530,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 59.69 101.6 0)
+		(at 62.23 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c4878e3a-eab4-409a-8eac-bba428d3f65f")
-		(property "Reference" "TP3"
-			(at 61.468 97.028 0)
+		(property "Reference" "TP2"
+			(at 63.5 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,16 +2547,17 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 61.468 99.568 0)
+			(at 64.008 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 64.77 101.6 0)
+			(at 67.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 101.6 0)
+			(at 67.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2575,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 59.69 101.6 0)
+			(at 62.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2589,7 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -2320,15 +2597,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 59.69 90.17 180)
+		(at 62.23 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e639288f-71dd-481d-bc04-bf7c60cd4c0c")
-		(property "Reference" "#PWR042"
-			(at 59.69 86.36 0)
+		(property "Reference" "#PWR047"
+			(at 62.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2614,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 56.515 92.075 0)
+			(at 59.055 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 90.17 0)
+			(at 62.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 90.17 0)
+			(at 62.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 90.17 0)
+			(at 62.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2654,7 @@
 		(instances
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a/3efd88d2-66de-422c-84c2-62c09aa5f86d"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2410,7 +2687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 140.97 83.82 0)
 			(effects
 				(font
@@ -2454,7 +2731,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 140.97 106.68 180)
+		(at 152.4 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2462,7 +2739,7 @@
 		(dnp no)
 		(uuid "f0482bbc-a908-4576-b3d0-c9f388d792fc")
 		(property "Reference" "D6"
-			(at 139.065 102.235 0)
+			(at 150.495 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2748,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 139.065 104.14 0)
+			(at 150.495 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,8 +2756,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 140.97 106.68 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 106.68 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2775,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 106.68 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2928,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gps-compass_brd:CEM-1203_Buzzer"
+		(property "Footprint" "inset:AST0827MW-03BTRQ_MAL"
 			(at 205.74 89.535 90)
 			(effects
 				(font
@@ -2720,7 +2997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 140.97 91.44 0)
 			(effects
 				(font
