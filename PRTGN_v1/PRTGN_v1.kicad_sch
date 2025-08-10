@@ -164,20 +164,6 @@
 		)
 		(uuid "c351c5a3-3072-4d5f-9be1-8ee1f93d1136")
 	)
-	(text "SPS LOGO"
-		(exclude_from_sim no)
-		(at 86.995 166.37 90)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8781953-be00-4174-bb9e-25c1b091d5bf")
-	)
 	(text "JST VH CONN AND HOUSING"
 		(exclude_from_sim no)
 		(at 80.645 124.46 0)
@@ -191,12 +177,38 @@
 		(uuid "ed8e7aee-6460-4cf2-b961-bb7aa5890589")
 	)
 	(no_connect
-		(at 86.36 177.8)
+		(at 99.06 170.18)
+		(uuid "39490c2c-b531-43ef-b300-0ee10db6a928")
+	)
+	(no_connect
+		(at 104.14 170.18)
+		(uuid "5016c1d8-5e46-4805-b2c2-c61ae9bce76d")
+	)
+	(no_connect
+		(at 83.82 170.18)
 		(uuid "ab3086a4-aadf-4f20-87f9-5676e7411632")
+	)
+	(no_connect
+		(at 93.98 170.18)
+		(uuid "b291f070-e20f-4ca2-8b85-7303085628e5")
+	)
+	(no_connect
+		(at 88.9 170.18)
+		(uuid "b7d0bf8b-2922-49db-952d-727e2084dc85")
 	)
 	(wire
 		(pts
-			(xy 86.36 171.45) (xy 86.36 177.8)
+			(xy 104.14 168.91) (xy 104.14 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542b47ae-1914-41a8-b210-141bc17dd520")
+	)
+	(wire
+		(pts
+			(xy 83.82 168.91) (xy 83.82 170.18)
 		)
 		(stroke
 			(width 0)
@@ -204,18 +216,48 @@
 		)
 		(uuid "6b269091-6723-4c06-ac8f-a37a715194bb")
 	)
+	(wire
+		(pts
+			(xy 88.9 168.91) (xy 88.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4b0296-6516-4c8e-b8ed-55ccd3732098")
+	)
+	(wire
+		(pts
+			(xy 93.98 168.91) (xy 93.98 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3a04a9-f0a8-4db4-a6d4-f0755b3ed239")
+	)
+	(wire
+		(pts
+			(xy 99.06 168.91) (xy 99.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06c214a-36e6-4787-93b4-e92fe433a029")
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 86.36 171.45 0)
+		(at 104.14 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ec507462-a2b7-4be0-8de5-59fec7670766")
-		(property "Reference" "TPd1"
-			(at 88.9 166.8779 0)
+		(uuid "23a5317b-0f56-4a6d-9b67-e4dac3766e58")
+		(property "Reference" "TPd8"
+			(at 106.68 164.3379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -225,7 +267,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 88.9 169.4179 0)
+			(at 106.68 166.8779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,8 +276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 91.44 171.45 0)
+		(property "Footprint" "sumec_graphic:PURO_CHANGED_IMG"
+			(at 109.22 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,7 +286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 171.45 0)
+			(at 109.22 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,7 +295,214 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 86.36 171.45 0)
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a6197d6-0d65-4902-b87d-4ab5fd2d1798")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a"
+					(reference "TPd8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "504d1591-ba1e-4db2-90b7-335235352ae9")
+		(property "Reference" "TPd6"
+			(at 96.52 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.52 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:OWO_IMG"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acf0988f-3fb3-468d-b311-1a806a1d0460")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a"
+					(reference "TPd6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b2a797-57b6-49b1-be28-d8f8b93603e7")
+		(property "Reference" "TPd3"
+			(at 91.44 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 91.44 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:BOYKISSER_IMG"
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00f35e05-72c8-47da-b4dc-f0c4379a7f03")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a"
+					(reference "TPd3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec507462-a2b7-4be0-8de5-59fec7670766")
+		(property "Reference" "TPd1"
+			(at 86.36 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 86.36 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PRTGN_brd:APERTURE_ART"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,6 +517,75 @@
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a"
 					(reference "TPd1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed7d30ba-e9d8-4c9c-9c5b-08b245b34fd0")
+		(property "Reference" "TPd7"
+			(at 101.6 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 101.6 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:BLAHAJ_IMG_silk"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc969093-3744-4535-9240-009117a3e3f0")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a"
+					(reference "TPd7")
 					(unit 1)
 				)
 			)
@@ -316,7 +634,7 @@
 		)
 	)
 	(sheet
-		(at 52.705 80.01)
+		(at 52.07 72.39)
 		(size 55.88 27.305)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -332,7 +650,7 @@
 		)
 		(uuid "1f17b221-7bce-421d-8177-d4332476b4cf")
 		(property "Sheetname" "MCU"
-			(at 52.705 79.2984 0)
+			(at 52.07 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +659,7 @@
 			)
 		)
 		(property "Sheetfile" "sub-sch/mcu.kicad_sch"
-			(at 52.705 107.8996 0)
+			(at 52.07 100.2796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,7 +676,7 @@
 		)
 	)
 	(sheet
-		(at 52.705 39.37)
+		(at 51.435 39.37)
 		(size 55.88 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -374,7 +692,7 @@
 		)
 		(uuid "3efd88d2-66de-422c-84c2-62c09aa5f86d")
 		(property "Sheetname" "DEBUG"
-			(at 52.705 38.6584 0)
+			(at 51.435 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,7 +701,7 @@
 			)
 		)
 		(property "Sheetfile" "sub-sch/debug.kicad_sch"
-			(at 52.705 67.8946 0)
+			(at 51.435 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,7 +760,7 @@
 		)
 	)
 	(sheet
-		(at 117.475 78.74)
+		(at 116.84 72.39)
 		(size 57.15 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -458,7 +776,7 @@
 		)
 		(uuid "e73932a4-2b78-43cb-ab9c-cf20417cc5c3")
 		(property "Sheetname" "FUNCTIONS"
-			(at 117.475 78.0284 0)
+			(at 116.84 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,7 +785,7 @@
 			)
 		)
 		(property "Sheetfile" "sub-sch/functions.kicad_sch"
-			(at 117.475 107.2646 0)
+			(at 116.84 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
