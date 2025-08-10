@@ -178,10 +178,6 @@
 	)
 	(no_connect
 		(at 99.06 170.18)
-		(uuid "39490c2c-b531-43ef-b300-0ee10db6a928")
-	)
-	(no_connect
-		(at 104.14 170.18)
 		(uuid "5016c1d8-5e46-4805-b2c2-c61ae9bce76d")
 	)
 	(no_connect
@@ -198,7 +194,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 168.91) (xy 104.14 170.18)
+			(xy 99.06 168.91) (xy 99.06 170.18)
 		)
 		(stroke
 			(width 0)
@@ -236,19 +232,9 @@
 		)
 		(uuid "bc3a04a9-f0a8-4db4-a6d4-f0755b3ed239")
 	)
-	(wire
-		(pts
-			(xy 99.06 168.91) (xy 99.06 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d06c214a-36e6-4787-93b4-e92fe433a029")
-	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 104.14 168.91 0)
+		(at 99.06 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -257,7 +243,7 @@
 		(fields_autoplaced yes)
 		(uuid "23a5317b-0f56-4a6d-9b67-e4dac3766e58")
 		(property "Reference" "TPd8"
-			(at 106.68 164.3379 0)
+			(at 101.6 164.3379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -267,7 +253,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 106.68 166.8779 0)
+			(at 101.6 166.8779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,7 +263,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:PURO_CHANGED_IMG"
-			(at 109.22 168.91 0)
+			(at 104.14 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -286,7 +272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 168.91 0)
+			(at 104.14 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,7 +281,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 104.14 168.91 0)
+			(at 99.06 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,75 +503,6 @@
 			(project "PRTGN_v1"
 				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a"
 					(reference "TPd1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed7d30ba-e9d8-4c9c-9c5b-08b245b34fd0")
-		(property "Reference" "TPd7"
-			(at 101.6 164.3379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 101.6 166.8779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "sumec_graphic:BLAHAJ_IMG_silk"
-			(at 104.14 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 99.06 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc969093-3744-4535-9240-009117a3e3f0")
-		)
-		(instances
-			(project "PRTGN_v1"
-				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a"
-					(reference "TPd7")
 					(unit 1)
 				)
 			)
