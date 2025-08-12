@@ -177,24 +177,32 @@
 		(uuid "ed8e7aee-6460-4cf2-b961-bb7aa5890589")
 	)
 	(no_connect
-		(at 99.06 170.18)
+		(at 107.95 170.18)
+		(uuid "0e0aff5c-86eb-49ee-b171-2505f289f237")
+	)
+	(no_connect
+		(at 97.79 170.18)
 		(uuid "5016c1d8-5e46-4805-b2c2-c61ae9bce76d")
 	)
 	(no_connect
-		(at 83.82 170.18)
+		(at 102.87 170.18)
+		(uuid "5698260a-45a1-46dc-9bac-b58e2285d897")
+	)
+	(no_connect
+		(at 82.55 170.18)
 		(uuid "ab3086a4-aadf-4f20-87f9-5676e7411632")
 	)
 	(no_connect
-		(at 93.98 170.18)
+		(at 92.71 170.18)
 		(uuid "b291f070-e20f-4ca2-8b85-7303085628e5")
 	)
 	(no_connect
-		(at 88.9 170.18)
+		(at 87.63 170.18)
 		(uuid "b7d0bf8b-2922-49db-952d-727e2084dc85")
 	)
 	(wire
 		(pts
-			(xy 99.06 168.91) (xy 99.06 170.18)
+			(xy 97.79 168.91) (xy 97.79 170.18)
 		)
 		(stroke
 			(width 0)
@@ -204,7 +212,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 168.91) (xy 83.82 170.18)
+			(xy 82.55 168.91) (xy 82.55 170.18)
 		)
 		(stroke
 			(width 0)
@@ -214,7 +222,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 168.91) (xy 88.9 170.18)
+			(xy 87.63 168.91) (xy 87.63 170.18)
 		)
 		(stroke
 			(width 0)
@@ -224,7 +232,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 168.91) (xy 93.98 170.18)
+			(xy 107.95 168.91) (xy 107.95 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4114d8d-2196-41ed-9efc-5dfe74fe40cc")
+	)
+	(wire
+		(pts
+			(xy 92.71 168.91) (xy 92.71 170.18)
 		)
 		(stroke
 			(width 0)
@@ -232,9 +250,19 @@
 		)
 		(uuid "bc3a04a9-f0a8-4db4-a6d4-f0755b3ed239")
 	)
+	(wire
+		(pts
+			(xy 102.87 168.91) (xy 102.87 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43fa881-e086-4645-9ccb-08a758eca7bc")
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 99.06 168.91 0)
+		(at 97.79 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -243,7 +271,7 @@
 		(fields_autoplaced yes)
 		(uuid "23a5317b-0f56-4a6d-9b67-e4dac3766e58")
 		(property "Reference" "TPd8"
-			(at 101.6 164.3379 0)
+			(at 100.33 164.3379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,7 +281,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 101.6 166.8779 0)
+			(at 100.33 166.8779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,7 +291,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:PURO_CHANGED_IMG"
-			(at 104.14 168.91 0)
+			(at 102.87 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +300,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 168.91 0)
+			(at 102.87 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,7 +309,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 99.06 168.91 0)
+			(at 97.79 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +331,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 93.98 168.91 0)
+		(at 92.71 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -312,7 +340,7 @@
 		(fields_autoplaced yes)
 		(uuid "504d1591-ba1e-4db2-90b7-335235352ae9")
 		(property "Reference" "TPd6"
-			(at 96.52 164.3379 0)
+			(at 95.25 164.3379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -322,7 +350,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 96.52 166.8779 0)
+			(at 95.25 166.8779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -332,7 +360,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:OWO_IMG"
-			(at 99.06 168.91 0)
+			(at 97.79 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 168.91 0)
+			(at 97.79 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,7 +378,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 93.98 168.91 0)
+			(at 92.71 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -372,7 +400,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.9 168.91 0)
+		(at 87.63 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -381,7 +409,7 @@
 		(fields_autoplaced yes)
 		(uuid "65b2a797-57b6-49b1-be28-d8f8b93603e7")
 		(property "Reference" "TPd3"
-			(at 91.44 164.3379 0)
+			(at 90.17 164.3379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,7 +419,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 91.44 166.8779 0)
+			(at 90.17 166.8779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +429,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:BOYKISSER_IMG"
-			(at 93.98 168.91 0)
+			(at 92.71 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,7 +438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 168.91 0)
+			(at 92.71 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,7 +447,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 88.9 168.91 0)
+			(at 87.63 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -441,16 +469,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 83.82 168.91 0)
+		(at 102.87 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ec507462-a2b7-4be0-8de5-59fec7670766")
-		(property "Reference" "TPd1"
-			(at 86.36 164.3379 0)
+		(uuid "6fc526ab-9440-4c3b-98b1-6aa238030de4")
+		(property "Reference" "TPd2"
+			(at 105.41 164.3379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +488,145 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 86.36 166.8779 0)
+			(at 105.41 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PRTGN_brd:LEGOSHI_SILK"
+			(at 107.95 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 102.87 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1be3b6fd-1e0c-4821-a095-8500243acf7c")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a"
+					(reference "TPd2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7d220da-acae-402d-970d-351fab02825a")
+		(property "Reference" "TPd4"
+			(at 110.49 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:OWO_IMG"
+			(at 113.03 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d0d8e75-dfb3-4b28-9215-c7fc14fa379b")
+		)
+		(instances
+			(project "PRTGN_v1"
+				(path "/4072676c-cfd2-418d-bd22-dac92e3db49a"
+					(reference "TPd4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec507462-a2b7-4be0-8de5-59fec7670766")
+		(property "Reference" "TPd1"
+			(at 85.09 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.09 166.8779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +636,7 @@
 			)
 		)
 		(property "Footprint" "PRTGN_brd:APERTURE_ART"
-			(at 88.9 168.91 0)
+			(at 87.63 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +645,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 168.91 0)
+			(at 87.63 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,7 +654,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 83.82 168.91 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
