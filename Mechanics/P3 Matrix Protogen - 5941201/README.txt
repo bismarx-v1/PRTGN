@@ -1,0 +1,4 @@
+P3 Matrix Protogen by pario on Thingiverse: https://www.thingiverse.com/thing:5941201
+
+Summary:
+Protogen I've been working on for a while, the .step file gives in depth detail on its assembly. Parts you will need to purchase:https://www.amazon.com/dp/B09MB426K5 - LED displayhttps://www.amazon.com/dp/B08D5ZD528 - LED controllerhttps://www.amazon.com/dp/B073SNC45F/ - Power Cordhttps://www.amazon.com/dp/B07GD2BWPY/ - Cable to connect LED to controllerhttps://www.amazon.com/dp/B07VNDFYNQ/ - Nuts and boltsFeel free to print! Don't resell my models please. You will need a vacuum former to make the visor. The stls are oriented in the most optimal directions and you will only need bed supports to print them. All the stls are designed for a printer with a volume of at least 300x300x300mm

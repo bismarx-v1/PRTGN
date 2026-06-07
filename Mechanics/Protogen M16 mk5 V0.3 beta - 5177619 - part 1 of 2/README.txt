@@ -1,0 +1,4 @@
+Protogen M16 mk5 V0.3 beta by M16_Studios on Thingiverse: https://www.thingiverse.com/thing:5177619
+
+Summary:
+Protogen M16 mk5 V0.3 betaUPD (10/15/2022): Removal of sales bans. Do whatever you want, change models, make your own versions, make, sell to anyone as much as you want.The model is completely ready for production, but I have not yet tested and modified it in any way. Print at your own risk (but it seems like it should work out). If that for her you need 16 matrices for the face and two more for the side headphones. The Master Model is not a visor. The visor is manufactured using a vacuum thermoforming sheet of PETG plastic. P.S. I tried very hard to do everything very nicely and efficiently, I hope you enjoyed it UwU (I'm only seventeen yo)More on:https://t.me/m16studiosLess on:https://twitter.com/M16Studios
